@@ -1,0 +1,24 @@
+:root{
+    --dark-bg:#1f2937;
+    --quote-bg:#e5e7eb;
+    --dark-txt:#1f2937;
+    --light-txt:#f9faf8;
+    --light-txt-secondary:#e5e7eb;
+    --btn:#3882f6;
+
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.copyright.container{
+    /*background-color: var(--dark-bg);
+    color: var(--light-txt);*/
+    display: flex;
+    justify-content: center;
+}
+
+.copyright .text{
+    padding: 16px;
+}
