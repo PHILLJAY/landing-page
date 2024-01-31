@@ -18,6 +18,13 @@ body{
     display: flex;
 }
 
+.info.container{
+    flex-direction: column;
+    align-items: center;
+}
+
+.info.header
+
 .imagerow.container{
     flex-wrap: wrap;
     gap: 32px;
