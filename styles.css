@@ -12,6 +12,33 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.quote.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--quote-bg);
+}
+
+.quotetextcontainer{
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    display: flex;
+    gap: 2px;
+    margin: 32px 16px;
+}
+
+.quote.text{
+    flex: 1 1 auto;
+    max-width: 40em;
+}
+
+.quote.attribution{
+    flex: auto;
+    align-items: end;
+    display: flex;
+}
+
 .card.container{
     display: flex;
     background-color: var(--btn);
