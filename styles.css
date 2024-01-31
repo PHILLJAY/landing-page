@@ -12,6 +12,29 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.card.container{
+    display: flex;
+    background-color: var(--btn);
+    align-items: center;
+    justify-content:space-around;
+    padding: 30px;
+}
+
+.text.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.text.container .text{
+    flex: auto;
+    outline: 2px dotted var(--light-txt);
+}
+
+.signup.button{
+    outline: 2px solid var(--light-txt);
+}
+
 .copyright.container{
     /*background-color: var(--dark-bg);
     color: var(--light-txt);*/
