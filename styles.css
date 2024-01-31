@@ -23,11 +23,17 @@ body{
     align-items: center;
 }
 
-.info.header
+.info.header{
+    margin: 32px 8px 32px;
+    text-align: center;
+}
 
 .imagerow.container{
     flex-wrap: wrap;
     gap: 32px;
+    margin: 0px 8px 52px;
+    align-items: center;
+    justify-content: center;
 }
 
 .imageandtext.container{
