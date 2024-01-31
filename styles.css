@@ -18,10 +18,14 @@ body{
     display: flex;
 }
 
+.imagerow.container{
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
 .imageandtext.container{
     flex-direction: column;
     justify-content: center;
-
 }
 
 div .image{
