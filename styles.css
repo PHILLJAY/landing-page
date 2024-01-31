@@ -33,6 +33,7 @@ body{
 .quote.text{
     flex: 1 1 auto;
     max-width: 36em;
+    font-style: italic;
 }
 
 .quote.attribution{
@@ -40,7 +41,6 @@ body{
     align-items: end;
     display: flex;
 }
-
 
 .calltoaction.container{
     display: flex;
