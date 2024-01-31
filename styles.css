@@ -18,6 +18,32 @@ body{
     display: flex;
 }
 
+.imageandtext.container{
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+div .image{
+    flex: auto;
+}
+
+.imageandtext img{
+    flex: 0 1 auto;
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+}
+
+.infotext{
+    max-width: 160px;
+    flex: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
 .quote.container{
     display: flex;
     align-items: center;
