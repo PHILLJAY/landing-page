@@ -10,6 +10,8 @@
 
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .quote.container{
@@ -25,12 +27,12 @@ body{
     align-items: flex-end;
     display: flex;
     gap: 2px;
-    margin: 32px 16px;
+    margin: 54px 16px 48px;
 }
 
 .quote.text{
     flex: 1 1 auto;
-    max-width: 40em;
+    max-width: 36em;
 }
 
 .quote.attribution{
@@ -39,18 +41,30 @@ body{
     display: flex;
 }
 
+
+.calltoaction.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .card.container{
     display: flex;
     background-color: var(--btn);
     align-items: center;
     justify-content:space-around;
     padding: 30px;
+    flex: 0 1 36em;
+    margin: 36px 8px;
+    flex-wrap: wrap;
+    gap: 8px;
 }
 
 .text.container{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    flex: 0 3 auto;
 }
 
 .text.container .text{
