@@ -18,7 +18,23 @@ body{
     display: flex;
 }
 
+.hero.container{
 
+}
+
+.herotext.container{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    background-color: var(--dark-bg);
+}
+
+.hero img{
+    flex: 1 4 auto;
+    width: 400px;
+    height: 160px;
+    object-fit: cover;
+}
 
 .info.container{
     flex-direction: column;
