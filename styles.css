@@ -18,6 +18,20 @@ body{
     display: flex;
 }
 
+.header.container{
+    gap: 8px;
+}
+
+.headerlinks.container{
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header.link{
+    flex: auto;
+}
+
 .hero.container{
     gap: 16px;
     background-color: var(--dark-bg);
