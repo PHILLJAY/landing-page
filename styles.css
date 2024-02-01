@@ -38,6 +38,10 @@ body{
     justify-content: center;
 }
 
+.hero.container{
+    padding: 64px;
+}
+
 .herotext.container{
     display: flex;
     flex-direction: column;
