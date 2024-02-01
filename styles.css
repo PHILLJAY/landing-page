@@ -19,14 +19,17 @@ body{
 }
 
 .hero.container{
-
+    gap: 16px;
+    background-color: var(--dark-bg);
+    justify-content: center;
 }
 
 .herotext.container{
     display: flex;
     flex-direction: column;
     flex: 1 1 auto;
-    background-color: var(--dark-bg);
+    max-width: 400px;
+    justify-content: center;
 }
 
 .hero img{
