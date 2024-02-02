@@ -61,12 +61,17 @@ body{
     padding: 64px;
 }
 
+.herocenter.container{
+    gap: 18px;
+}
+
 .herotext.container{
     display: flex;
     flex-direction: column;
     flex: 1 1 auto;
     max-width: 400px;
     justify-content: center;
+    gap: 4px;
 }
 
 .herotext #title{
@@ -77,6 +82,12 @@ body{
 .herotext #subtitle{
     font-size: 18px;
     color: var(--light-txt-secondary);
+}
+
+.hero.button{
+    flex: 0 1 auto;
+    max-width: fit-content;
+    padding: 4px 8px;
 }
 
 .hero img{
