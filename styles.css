@@ -45,19 +45,19 @@ body{
     gap: 16px;
     justify-content: center;
     align-items: center;
+    color: var(--light-txt-secondary);
 }
 
 .header.link{
     flex: auto;
+    font-size: 18px;
 }
 
 .hero.container{
     gap: 16px;
     background-color: var(--dark-bg);
     justify-content: center;
-}
-
-.hero.container{
+    color: var(--light-txt);
     padding: 64px;
 }
 
@@ -67,6 +67,16 @@ body{
     flex: 1 1 auto;
     max-width: 400px;
     justify-content: center;
+}
+
+.herotext #title{
+    font-size: 48px;
+    font-weight:bolder;
+}
+
+.herotext #subtitle{
+    font-size: 18px;
+    color: var(--light-txt-secondary);
 }
 
 .hero img{
