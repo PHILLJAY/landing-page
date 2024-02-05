@@ -180,7 +180,6 @@ body{
     display: flex;
     font-size: 24px;
     font-weight: bold;
-    colo
 }
 
 .calltoaction.container{
@@ -199,6 +198,7 @@ body{
     margin: 36px 8px;
     flex-wrap: wrap;
     gap: 8px;
+    border-radius: 8px;
 }
 
 .text.container{
@@ -208,9 +208,18 @@ body{
     flex: 0 3 auto;
 }
 
-.text.container .text{
+.text.container{
+    color: var(--light-txt);
+}
+
+.text.container #bigtext{
     flex: auto;
-    outline: 2px dotted var(--light-txt);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.text.container #smalltext{
+    flex: auto;
 }
 
 .button{
@@ -222,6 +231,8 @@ body{
 .button:visited{
     background-color: var(--btn);
     color: var(--light-txt);
+    text-decoration: none;
+    color: inherit;
 }
 
 .signup.button{
