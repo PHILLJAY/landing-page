@@ -237,6 +237,7 @@ body{
 
 .signup.button{
     outline: 2px solid var(--light-txt);
+    padding: 8px 16px;
 }
 
 .copyright.container{
