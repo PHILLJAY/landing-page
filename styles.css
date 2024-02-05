@@ -226,6 +226,7 @@ body{
     background-color: var(--btn);
     color: var(--light-txt);
     border-radius: 8px;
+    transition: all 0.1s ease-out;
 }
 
 .button:visited{
@@ -235,9 +236,24 @@ body{
     color: inherit;
 }
 
+.button:hover{
+    color: var(--btn);
+    background-color: var(--light-txt);
+}
+
 .signup.button{
     outline: 2px solid var(--light-txt);
     padding: 8px 16px;
+}
+
+.card.container a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.card.container a:visited{
+    text-decoration: none;
+    color: inherit;
 }
 
 .copyright.container{
