@@ -104,9 +104,12 @@ body{
     align-items: center;
 }
 
-.info.header{
+#infoheader{
     margin: 32px 8px 32px;
     text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: var(--dark-txt);
 }
 
 .imagerow.container{
@@ -120,17 +123,22 @@ body{
 .imageandtext.container{
     flex-direction: column;
     justify-content: center;
+    gap: 16px;
 }
 
-div .image{
+.image{
+    display: flex;
     flex: auto;
 }
+
 
 .imageandtext img{
     flex: 0 1 auto;
     width: 160px;
     height: 160px;
     object-fit: cover;
+    border-radius: 8px;
+    border: solid 2px var(--btn);
 }
 
 .infotext{
